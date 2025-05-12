@@ -131,7 +131,7 @@ function rebalance() {
     fi
 
     # compare copy against original to make sure nothing went wrong
-    if [[ "${checksum_flag}" == "true"* ]]; then
+    if [[ "${checksum_flag}" == "false"* ]]; then
         echo "Comparing copy against original..."
         if [[ "${OSName}" == "linux-gnu"* ]]; then
             # Linux
