@@ -209,9 +209,9 @@ function rebalance() {
     fi
 }
 
-checksum_flag='true'
+checksum_flag='false'
 skip_hardlinks_flag='false'
-ignore_permissions_flag='false'
+ignore_permissions_flag='true'
 passes_flag='1'
 
 if [[ "$#" -eq 0 ]]; then
